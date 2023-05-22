@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  mymongodb:
+    image: "mongo"
+    ports:
+      - "27017:27017"
+    volumes:
+      - data:/data/db
+  backend:
+    build: ./server
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mymongodb
+  frontend:
+    build: ./skateboard
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./skateboard/src:/app/src
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+volumes:
+  data:
+  
