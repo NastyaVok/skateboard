@@ -13,7 +13,11 @@ Skateboard shop
 - TypeScript
 - CSS Modules
 - Storybook
+- Node.js Express
+- Mongo
 - Docker
+
+
 
 
 
