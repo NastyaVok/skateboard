@@ -1,0 +1,51 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+
+  --font-family-main: 'Montserrat', sans-serif;
+
+  --font-size-big: 26px;
+  --font-size-subtitle: 20px;
+  --font-size-medium: 18px;
+
+  --border-radius-small: 4px;
+
+  --spacing-small: 14px;
+  --spacing-medium: 20px;
+  --spacing-big: 30px;
+
+  --transition: .4s;
+
+  --background-color: linear-gradient(to right top, #ecb2d6, #d5bffc, #a2d2ff, #56e5ff, #00f4ff);
+  --background-color-pink: rgba(233, 13, 49, 0.527);
+}
+
+*,  
+::after, 
+::before {
+  box-sizing: border-box;
+}
+
+li,
+ul,
+p,
+button,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: inherit;
+  cursor: none;
+  text-decoration: none;
+  outline: none;
+}

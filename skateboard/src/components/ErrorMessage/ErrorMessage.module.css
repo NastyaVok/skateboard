@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    margin: auto;
+    margin-top: var(--spacing-big);
+}
+
+.title {
+   font-family: var(--font-family-main);
+   font-size:var(--font-size-big);
+}
+
+.text {
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--spacing-small);
+}
+
+.video {
+    display: block;
+    border-radius: var(--border-radius-small);
+    margin: auto;
+}

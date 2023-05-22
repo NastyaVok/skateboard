@@ -1,0 +1,68 @@
+{
+  "name": "skateboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-links": "^7.0.11",
+    "@storybook/blocks": "^7.0.11",
+    "@storybook/preset-create-react-app": "^7.0.11",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-webpack5": "^7.0.11",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "craco": "^0.0.3",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.11",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1"
+  },
+  "overrides": {
+    "typescript": "^5.0.4"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
+}

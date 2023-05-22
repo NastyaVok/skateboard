@@ -1,0 +1,12 @@
+.container {
+    font-family: var(--font-family-main);
+}
+
+.title {
+    font-size: var(--font-size-subtitle);
+}
+
+.description {
+    margin-top: var(--spacing-small);
+    font-size: var(--font-size-medium);
+}

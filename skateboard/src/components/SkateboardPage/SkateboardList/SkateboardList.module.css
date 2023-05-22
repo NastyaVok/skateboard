@@ -1,0 +1,46 @@
+.list__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list__item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+}
+
+.skateboard__name {
+    font-family: var(--font-family-main);
+    font-weight: 600;
+    font-size: var(--font-size-medium);
+    margin-top: auto;
+}
+
+.skateboard__price {
+    font-family: var(--font-family-main);
+    margin-top: var(--spacing-small);
+    margin-bottom: auto;
+}
+
+.skateboard__photo {
+    width: 100%;
+    height: 65%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.skateboard__name:hover,
+.skateboard__price:hover {
+    cursor: pointer;
+}
+
+.skateboard__photo:hover {
+    height: 70%;
+    transition: var(--transition);
+    cursor: pointer;
+}

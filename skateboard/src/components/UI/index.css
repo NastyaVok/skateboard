@@ -1,0 +1,6 @@
+:root {
+    --font-family-main: 'Montserrat', sans-serif;
+    --spacing-small: 14px;
+    --border-radius-small: 4px;
+    --background-color: linear-gradient(to right top, #ecb2d6, #d5bffc, #a2d2ff, #56e5ff, #00f4ff);
+}
